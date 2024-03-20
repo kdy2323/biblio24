@@ -5,10 +5,7 @@ import bibliotheque.utilitaires.Utilitaire;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 public class Gestion {
     Scanner sc = new Scanner(System.in);
@@ -157,7 +154,15 @@ public class Gestion {
         Exemplaire ex = new Exemplaire(mat,etat,louv.get(choix-1));
         lex.add(ex);
         System.out.println("exemplaire créé");
+
         //TODO attribuer rayon
+
+        System.out.println("Attribuer un rayon à l'exemplaire : ");
+        Utilitaire.choixListe(lrayon);
+        System.out.println(" choix du rayon : ");
+        int choixRayon = sc.nextInt();
+        ex.setRayon(lrayon.get(choixRayon - 1));
+
     }
 
     private void gestOuvrages() {

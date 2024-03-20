@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0db3d17-8e27-4795-b590-156de0ee7e00" name="Changes" comment="commit2">
+    <list default="true" id="c0db3d17-8e27-4795-b590-156de0ee7e00" name="Changes" comment="apres correction">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/gestion/Gestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/gestion/Gestion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +34,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/bibke/Desktop/condorcet/quadri 2/Techno 2/projet",
+    "last_opened_file_path": "C:/Users/bibke/Desktop/condorcet/quadri 2/Objet 2/biblio24/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,6 +63,7 @@
       <updated>1710927004080</updated>
       <workItem from="1710927005194" duration="1063000" />
       <workItem from="1710929102786" duration="305000" />
+      <workItem from="1710932607133" duration="3135000" />
     </task>
     <task id="LOCAL-00001" summary="commit1">
       <option name="closed" value="true" />
@@ -87,7 +89,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710927803822</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="avant correction">
+      <option name="closed" value="true" />
+      <created>1710932634849</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710932634849</updated>
+    </task>
+    <task id="LOCAL-00005" summary="apres correction">
+      <option name="closed" value="true" />
+      <created>1710932802797</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710932802797</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -96,6 +114,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit1" />
     <MESSAGE value="commit2" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit2" />
+    <MESSAGE value="avant correction" />
+    <MESSAGE value="apres correction" />
+    <option name="LAST_COMMIT_MESSAGE" value="apres correction" />
   </component>
 </project>
