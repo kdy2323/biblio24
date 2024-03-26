@@ -239,7 +239,7 @@ public class Gestion {
                 } while (true);
                 ((DVD) o).setAutresLangues((List<String>) autresLangues);
                 System.out.println(" sous-titres");
-                Set<String> sousTitres = new HashSet<>();
+                Set<String> sousTitres = new HashSet<>() ;
                 do {
                     choix = Utilitaire.choixListe(langues);
                     if (choix == langues.size()) break;
