@@ -71,7 +71,7 @@ public class Exemplaire {
         return rayon;
     }
 
-    public void setRayon(String rayon) {
+    public void setRayon(Rayon rayon) {
         if(this.rayon!=null) this.rayon.getLex().remove(this);
         this.rayon=rayon;
         this.rayon.getLex().add(this);

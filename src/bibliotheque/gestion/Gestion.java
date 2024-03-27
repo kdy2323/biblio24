@@ -52,7 +52,7 @@ public class Gestion {
 
         Exemplaire e = new Exemplaire("m12", "état neuf", l);
         lex.add(e);
-        e.setRayon(String.valueOf(r));
+        e.setRayon(r);
 
 
         r = new Rayon("r45", "science fiction");
@@ -61,7 +61,7 @@ public class Gestion {
         e = new Exemplaire("d12", "griffé", d);
         lex.add(e);
 
-        e.setRayon(String.valueOf(r));
+        e.setRayon(r);
 
 
         Lecteur lec = new Lecteur(1, "Dupont", "Jean", LocalDate.of(2000, 1, 4), "Mons", "jean.dupont@mail.com", "0458774411");
@@ -173,7 +173,7 @@ public class Gestion {
         System.out.println("Attribuer un rayon à l'exemplaire : ");
         int choixRayon = Utilitaire.choixListe(lrayon);
         System.out.println(" choix du rayon : ");
-        String rayonChoisi = String.valueOf(lrayon.get(choixRayon - 1));
+        Rayon rayonChoisi = lrayon.get(choixRayon - 1);
         ex.setRayon(rayonChoisi);
 
     }
