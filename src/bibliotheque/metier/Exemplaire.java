@@ -77,7 +77,7 @@ public class Exemplaire {
         this.rayon.getLex().add(this);
     }
 
-    public boolean getLloc() {
+    public List<Location> getLloc() {
         return lloc;
     }
 
