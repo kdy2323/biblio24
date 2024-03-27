@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0db3d17-8e27-4795-b590-156de0ee7e00" name="Changes" comment="2 commit">
+    <list default="true" id="c0db3d17-8e27-4795-b590-156de0ee7e00" name="Changes" comment="4eme commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bibliotheque/gestion/Gestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/gestion/Gestion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bibliotheque/metier/Exemplaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/metier/Exemplaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/metier/Lecteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/metier/Lecteur.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +70,7 @@
       <workItem from="1711485627656" duration="45000" />
       <workItem from="1711485797342" duration="6000" />
       <workItem from="1711485985000" duration="31000" />
-      <workItem from="1711490370189" duration="1542000" />
+      <workItem from="1711490370189" duration="3162000" />
     </task>
     <task id="LOCAL-00001" summary="commit1">
       <option name="closed" value="true" />
@@ -135,7 +136,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711490714356</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="3eme commit">
+      <option name="closed" value="true" />
+      <created>1711529204737</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711529204737</updated>
+    </task>
+    <task id="LOCAL-00010" summary="4eme commit">
+      <option name="closed" value="true" />
+      <created>1711529660843</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711529660843</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +176,8 @@
     <MESSAGE value="apres correction" />
     <MESSAGE value="1er todo" />
     <MESSAGE value="2 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 commit" />
+    <MESSAGE value="3eme commit" />
+    <MESSAGE value="4eme commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="4eme commit" />
   </component>
 </project>

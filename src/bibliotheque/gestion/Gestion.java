@@ -168,7 +168,7 @@ public class Gestion {
         lex.add(ex);
         System.out.println("exemplaire créé");
 
-        //TODO attribuer rayon
+
 
         System.out.println("Attribuer un rayon à l'exemplaire : ");
         int choixRayon = Utilitaire.choixListe(lrayon);
