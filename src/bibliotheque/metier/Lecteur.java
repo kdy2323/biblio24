@@ -120,9 +120,7 @@ public class Lecteur {
 
         for (Location location : lloc) {
             Exemplaire exemplaire = location.getExemplaire();
-            if (exemplaire.getLloc()) {
-                exemplairesEnLocation.add(exemplaire);
-            }
+            exemplairesEnLocation.add(exemplaire);
         }
 
         return exemplairesEnLocation;
