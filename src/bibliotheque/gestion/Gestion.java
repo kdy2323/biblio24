@@ -4,13 +4,11 @@ import bibliotheque.metier.*;
 import bibliotheque.utilitaires.CDFactoryBeta;
 import bibliotheque.utilitaires.DVDFactoryBeta;
 import bibliotheque.utilitaires.LivreFactoryBeta;
+import bibliotheque.utilitaires.Utilitaire;
 
 import java.time.LocalDate;
 import java.time.LocalTime;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
 import static bibliotheque.utilitaires.Utilitaire.choixListe;
 
@@ -104,12 +102,22 @@ public class Gestion {
     }
 
     private void gestRestitution() {
-        //TODO lister exemplaires en location , choisir l'un d'entre eux, enregistrer sa restitution et éventuellement changer état
+        //choixListe(lex);
+        System.out.println("Veuillez choisir le numéro de l'exemplaire à restituer : ");
+        int choix = Utilitaire.choixListe(lex);
+        lloc.get(choix-1);
+
     }
 
     private void gestLocations() {
         int choix;
-        //TODO ne lister que les exemplaires libres et les trier par matricule
+        List<Exemplaire> exemplairesLibres = new ArrayList<>();
+        for (Exemplaire exemplaire : lex) {
+            if (!exemplaire.enLocation()) {
+                exemplairesLibres.add(exemplaire);
+            }
+        }
+        exemplairesLibres.sort(Comparator.comparing(Exemplaire::getMatricule));
         choix =choixListe(lex);
         if(lex.get(choix).enLocation()){
             System.out.println("exemplaire en location");

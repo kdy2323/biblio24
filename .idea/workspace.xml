@@ -4,29 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0db3d17-8e27-4795-b590-156de0ee7e00" name="Changes" comment="7eme commit">
-      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/CDFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/CDFactoryBeta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/DVDFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/DVDFactoryBeta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/LivreFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/LivreFactoryBeta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/OuvrageFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/comparators/AuteurComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/comparators/ExemplaireMatriculeComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/comparators/ExemplaireTitreComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/comparators/OuvrageComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/comparators/RayonComparator.java" afterDir="false" />
+    <list default="true" id="c0db3d17-8e27-4795-b590-156de0ee7e00" name="Changes" comment="correction commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bibliotheque/gestion/Gestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/gestion/Gestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/metier/Auteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/metier/Auteur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/metier/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/metier/CD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/metier/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/metier/DVD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/metier/Lecteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/metier/Lecteur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/metier/Livre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/metier/Livre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/metier/Ouvrage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/metier/Ouvrage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/metier/Rayon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/metier/Rayon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/utilitaires/Utilitaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/Utilitaire.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +70,7 @@
       <workItem from="1711485985000" duration="31000" />
       <workItem from="1711490370189" duration="4265000" />
       <workItem from="1711532591930" duration="3290000" />
-      <workItem from="1712090906519" duration="334000" />
+      <workItem from="1712090906519" duration="4598000" />
     </task>
     <task id="LOCAL-00001" summary="commit1">
       <option name="closed" value="true" />
@@ -204,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711531349788</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="correction commit">
+      <option name="closed" value="true" />
+      <created>1712091262133</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1712091262133</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +221,7 @@
     <MESSAGE value="5eme commit" />
     <MESSAGE value="6eme commit" />
     <MESSAGE value="7eme commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="7eme commit" />
+    <MESSAGE value="correction commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="correction commit" />
   </component>
 </project>
