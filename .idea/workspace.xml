@@ -4,11 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0db3d17-8e27-4795-b590-156de0ee7e00" name="Changes" comment="4eme commit">
+    <list default="true" id="c0db3d17-8e27-4795-b590-156de0ee7e00" name="Changes" comment="7eme commit">
+      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/CDFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/CDFactoryBeta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/DVDFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/DVDFactoryBeta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/LivreFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/LivreFactoryBeta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/OuvrageFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/comparators/AuteurComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/comparators/ExemplaireMatriculeComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/comparators/ExemplaireTitreComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/comparators/OuvrageComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/comparators/RayonComparator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bibliotheque/gestion/Gestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/gestion/Gestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bibliotheque/metier/Exemplaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/metier/Exemplaire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/metier/Auteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/metier/Auteur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/metier/CD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/metier/CD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/metier/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/metier/DVD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bibliotheque/metier/Lecteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/metier/Lecteur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/metier/Livre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/metier/Livre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/metier/Ouvrage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/metier/Ouvrage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/metier/Rayon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/metier/Rayon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bibliotheque/utilitaires/Utilitaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bibliotheque/utilitaires/Utilitaire.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,26 +48,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/bibke/Desktop/condorcet/quadri 2/Objet 2/biblio24&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/bibke/Desktop/condorcet/quadri 2/Objet 2/biblio24/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bibke\Desktop\condorcet\quadri 2\Objet 2\biblio24\src" />
@@ -70,7 +88,9 @@
       <workItem from="1711485627656" duration="45000" />
       <workItem from="1711485797342" duration="6000" />
       <workItem from="1711485985000" duration="31000" />
-      <workItem from="1711490370189" duration="3162000" />
+      <workItem from="1711490370189" duration="4265000" />
+      <workItem from="1711532591930" duration="3290000" />
+      <workItem from="1712090906519" duration="334000" />
     </task>
     <task id="LOCAL-00001" summary="commit1">
       <option name="closed" value="true" />
@@ -152,7 +172,39 @@
       <option name="project" value="LOCAL" />
       <updated>1711529660843</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="4eme commit">
+      <option name="closed" value="true" />
+      <created>1711530835910</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711530835910</updated>
+    </task>
+    <task id="LOCAL-00012" summary="5eme commit">
+      <option name="closed" value="true" />
+      <created>1711530849169</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711530849169</updated>
+    </task>
+    <task id="LOCAL-00013" summary="6eme commit">
+      <option name="closed" value="true" />
+      <created>1711530958661</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711530958661</updated>
+    </task>
+    <task id="LOCAL-00014" summary="7eme commit">
+      <option name="closed" value="true" />
+      <created>1711531349788</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1711531349788</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +230,9 @@
     <MESSAGE value="2 commit" />
     <MESSAGE value="3eme commit" />
     <MESSAGE value="4eme commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="4eme commit" />
+    <MESSAGE value="5eme commit" />
+    <MESSAGE value="6eme commit" />
+    <MESSAGE value="7eme commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="7eme commit" />
   </component>
 </project>
